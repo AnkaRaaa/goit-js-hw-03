@@ -1,9 +1,9 @@
 function slugify(title) {
-    // Приводимо до нижнього регістру
+    
     let lowerCaseItem = title.toLowerCase();
-    // Заміняємо пробіли на тире
+   
     let slug = lowerCaseItem.replace(/\s+/g, '-');
-    // Видаляємо зайві пробіли з початку та кінця
+    
     return slug.trim();
   }
 console.log(slugify("Arrays for beginners")); // "arrays-for-beginners"
